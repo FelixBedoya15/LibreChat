@@ -23,7 +23,7 @@ services:
 
 # services:
 
-USE LIBRECHAT CONFIG FILE
+# # USE LIBRECHAT CONFIG FILE
    api:
      volumes:
      - type: bind
@@ -53,7 +53,7 @@ USE LIBRECHAT CONFIG FILE
 #   api:
 #     image: ghcr.io/danny-avila/librechat-api:latest
 
-ADD SAML CERT FILE
+# # ADD SAML CERT FILE
    api:
      volumes:
      - type: bind
